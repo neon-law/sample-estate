@@ -28,6 +28,12 @@ questionnaire:
   custom_usd__signing_payment:
     _: END
   END: {}
+clauses:
+  arbitration:
+    source: engagement_arbitration@1
+    inputs:
+      law: jurisdiction__governing_law
+      seat: jurisdiction__arbitration_seat
 workflow:
   BEGIN:
     draft_created: lawyer_review
@@ -168,20 +174,7 @@ copy at any point in that period.
 
 ## VIII. Governing law and arbitration of disputes
 
-Nevada law governs this letter. Except for a fee dispute the Client elects to submit to the State Bar of Nevada's fee
-dispute arbitration program, any controversy or claim arising out of or relating to this engagement or its breach shall
-be settled by final and binding arbitration administered by the American Arbitration Association (AAA) in accordance
-with its Commercial Arbitration Rules. The arbitration will be before a single arbitrator, conducted confidentially, and
-decided under Nevada law. The AAA's rules and fee schedule govern administrative fees and arbitrator compensation, and
-judgment on the award may be entered in any court of competent jurisdiction.
-
-The arbitrator applies the same law and may award the same remedies a court would. This Section selects the forum for a
-dispute and does not limit, cap, or waive the Firm's responsibility for its own work. Nothing in this Section waives or
-overrides any non-waivable statutory or regulatory right applicable to a fee dispute.
-
-By signing this letter, the Client and the Firm each give up the right to a jury trial and to have a covered dispute
-decided in court. Because this agreement addresses future disputes, the Client may consult independent counsel before
-agreeing to it.
+{{> arbitration}}
 
 ## IX. Ending the engagement
 

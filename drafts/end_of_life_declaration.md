@@ -46,7 +46,7 @@ relatively short time, and I am no longer able to make decisions regarding my me
 physician or attending advanced practice registered nurse, pursuant to NRS 449A.400 to 449A.481, inclusive, to withhold
 or withdraw treatment that only prolongs the process of dying and is not necessary for my comfort or to alleviate pain.
 
-{{/if}}
+{{else}}{{/if}}
 
 {{#if custom_single_choice__declaration_form=designee}}
 
@@ -63,7 +63,7 @@ attending physician or attending advanced practice registered nurse, pursuant to
 treatment that only prolongs the process of dying and is not necessary for my comfort or to alleviate pain.) Strike
 language in parentheses if you do not desire it.
 
-{{/if}}
+{{else}}{{/if}}
 
 If you wish to include this statement in this declaration, you must INITIAL the statement in the box provided:
 
@@ -105,7 +105,7 @@ Name: {{person__alternate_treatment_designee.name}}
 Address: {{person__alternate_treatment_designee.street}}, {{person__alternate_treatment_designee.city}},
 {{person__alternate_treatment_designee.state}} {{person__alternate_treatment_designee.zip}}
 
-{{/if}}
+{{else}}{{/if}}
 
 ## Attorney review note
 

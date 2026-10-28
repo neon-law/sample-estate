@@ -98,7 +98,7 @@ Relevant powers and restrictions: Article VII of the Trust authorizes the truste
 property and to invest and reinvest it under the prudent investor rule, together with the powers listed in NRS 163.265
 to 163.410. Those powers are fiduciary powers, subject to duties of loyalty, prudence and impartiality.
 
-{{/if}}
+{{else}}{{/if}}
 
 {{#if custom_single_choice__proposed_transaction=real_property}}
 
@@ -106,7 +106,7 @@ Relevant powers and restrictions: Article VII of the Trust authorizes the truste
 together with the powers listed in NRS 163.265 to 163.410. Those powers are fiduciary powers, subject to duties of
 loyalty, prudence and impartiality and to applicable restrictions on the property involved.
 
-{{/if}}
+{{else}}{{/if}}
 
 {{#if custom_single_choice__proposed_transaction=digital_asset}}
 
@@ -115,7 +115,7 @@ the Trust has a right or interest, subject to Chapter 722 of NRS, applicable fed
 service. A direction given through a custodian's online tool takes priority over a contrary direction in the Trust, as
 NRS 722.310 provides.
 
-{{/if}}
+{{else}}{{/if}}
 
 {{#if custom_single_choice__proposed_transaction=other}}
 
@@ -123,7 +123,7 @@ Relevant powers and restrictions: Article VII of the Trust grants the trustee th
 163.410. Those powers are fiduciary powers, subject to duties of loyalty, prudence and impartiality and to applicable
 restrictions on the assets involved.
 
-{{/if}}
+{{else}}{{/if}}
 
 Title to trust assets is to be taken as: {{person__client.name}}, trustee of the {{entity__trust.name}}, dated
 {{custom_datetime__trust_date}}. This certification does not convey property, change a beneficiary designation or

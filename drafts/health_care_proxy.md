@@ -194,7 +194,7 @@ Signature of notarial officer: ________________________________
 
 Title and rank (optional): ________________________________
 
-{{/if}}
+{{else}}{{/if}}
 
 {{#if custom_single_choice__execution_method=witnesses}}
 
@@ -209,7 +209,7 @@ Witness 1 signature, printed name, residence address and date: _________________
 
 Witness 2 signature, printed name, residence address and date: ________________________________
 
-{{/if}}
+{{else}}{{/if}}
 
 ## Attorney execution note
 
