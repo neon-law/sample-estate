@@ -100,7 +100,7 @@ while the Trust is revocable, and separate property retains its character as sep
 records sufficient to trace the character of each asset. This instrument does not transmute property from one character
 to another; a transmutation requires a separate writing signed by both spouses.
 
-{{/if}}
+{{else}}{{/if}}
 
 The trustee accepts property actually transferred to the Trust and shall hold and administer it under this instrument. A
 recital or Schedule A entry alone does not transfer title. The trustee shall maintain evidence of each completed

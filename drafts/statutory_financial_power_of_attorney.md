@@ -231,7 +231,7 @@ Digital assets. I expressly grant my agent authority over the content of electro
 me and over my other digital assets, within the meaning of Chapter 722 of NRS, subject to any direction I have given
 through a custodian's online tool and to the custodian's terms of service.
 
-{{/if}}
+{{else}}{{/if}}
 
 {{#if custom_single_choice__content_authority=withhold}}
 
@@ -239,7 +239,7 @@ Digital assets. I do not grant my agent authority over the content of electronic
 This withholding does not limit any disclosure to my agent of a catalogue of my electronic communications, or of my
 other digital assets, that Chapter 722 of NRS permits.
 
-{{/if}}
+{{else}}{{/if}}
 
 <!--
 Other special instructions are free narrative with no typed questionnaire state. When the principal gives any, add

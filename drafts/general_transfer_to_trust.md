@@ -80,7 +80,7 @@ To the extent an asset on Schedule A is community property, {{person__spouse.nam
 assignment. The asset retains its character as community property in the Trust. Neither this assignment nor the spouse's
 joinder transmutes community property into separate property or separate property into community property.
 
-{{/if}}
+{{else}}{{/if}}
 
 ## II. Assets and transfer methods
 
@@ -133,7 +133,7 @@ Consenting spouse signature: ________________________________
 
 Date: ________________________________
 
-{{/if}}
+{{else}}{{/if}}
 
 ## VI. Certificate of acknowledgment
 
@@ -147,7 +147,7 @@ This instrument was acknowledged before me on ____________________ by {{person__
 
 This instrument was also acknowledged before me on ____________________ by {{person__spouse.name}}.
 
-{{/if}}
+{{else}}{{/if}}
 
 Signature of notarial officer: ________________________________
 
